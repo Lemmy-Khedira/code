@@ -6,7 +6,7 @@ else:
     down_payment = 0.2 * price
 print(f"Down payment: ${down_payment}")
 has_high_income = True
-has_good_credit = True
+has_good_credit = False
 if has_high_income and has_good_credit:
     print('Eligible for loan')
 temperature = 30
@@ -21,7 +21,6 @@ elif len(name) > 50:
     print("name can be a maximum of 50 characters")
 else:
     print("name looks good")
-
 weight = input("weight: ")
 unit = input("(L)bs or (K)g: ")
 if unit.upper() == "L":
